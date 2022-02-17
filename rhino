@@ -1,0 +1,5 @@
+#!/bin/sh
+set -eu
+
+Rscript --no-init-file -e 'renv::purge("rhino"); devtools::install("~/git/rhino")'
+exec R --no-save --no-restore-data --quiet
