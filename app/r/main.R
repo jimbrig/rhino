@@ -12,7 +12,7 @@ ui <- function(id) {
       tags$script(src = "static/js/app.min.js")
     ),
     tags$h3(
-      textOutput(ns("message"))
+      textOutput (ns("message"))
     )
   )
 }

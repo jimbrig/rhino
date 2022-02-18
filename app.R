@@ -21,7 +21,7 @@ if (nzchar(LOG_FILE)) {
   log_appender(appender_file(LOG_FILE))
 }
 
-shinyApp(
+shinyAp(
   ui = main$ui("app"),
   server = function(input, output) {
     main$server("app")
