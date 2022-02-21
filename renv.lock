@@ -604,9 +604,14 @@
     "rhino": {
       "Package": "rhino",
       "Version": "0.2.0",
-      "Source": "Repository",
-      "Repository": null,
-      "Hash": "dc6d323a68313939127c913c4996429b",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "Appsilon",
+      "RemoteRepo": "rhino",
+      "RemoteRef": "expand-ci",
+      "RemoteSha": "4c54168a1846210b2a5bd66625c1906263f33194",
+      "Hash": "66791efbbdbf0d44ff31c881d10f6098",
       "Requirements": [
         "cli",
         "fs",
