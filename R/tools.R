@@ -128,5 +128,12 @@ lint_sass <- function() {
 test_e2e <- function(interactive = FALSE) {
   command <- ifelse(isTRUE(interactive), "test-e2e-interactive", "test-e2e")
 
-  yarn(command)
+  if (isTRUE(interactive) && rstudioapi::isAvailable()) {
+    job::job({
+        rhino:::yarn(command)
+      }, import = c(command)
+    )
+  } else {
+    yarn(command)
+  }
 }
