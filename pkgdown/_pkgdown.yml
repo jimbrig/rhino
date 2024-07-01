@@ -94,6 +94,8 @@ navbar:
         - text: UI
         - text: Use shiny.fluent
           href: articles/how-to/use-shiny-fluent.html
+        - text: Use bslib
+          href: articles/how-to/use-bslib.html
         - text: -------
         - text: Authentication
         - text: Use shinymanager
@@ -110,6 +112,8 @@ navbar:
           href: articles/how-to/migrate-1-6.html
         - text: Migration to Rhino 1.7
           href: articles/how-to/migrate-1-7.html
+        - text: Migration to Rhino 1.8
+          href: articles/how-to/migrate-1-8.html
 
     faq:
       text: FAQ
@@ -147,14 +151,6 @@ reference:
   contents:
   - diagnostics
   - test_e2e
-
-- title: Linters
-  contents:
-  - box_alphabetical_calls_linter
-  - box_func_import_count_linter
-  - box_separate_calls_linter
-  - box_trailing_commas_linter
-  - box_universal_import_linter
 
 - title: Data
   contents:

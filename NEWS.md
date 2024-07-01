@@ -1,13 +1,13 @@
 # rhino (development version)
 
-1. New `box_alphabetical_imports_linter` checks if all imports are alphabetically sorted.
-2. Update GitHub Workflow template triggers. To update your workflow run:
-    ```r
-    file.copy(
-      system.file("templates", "github_ci", "dot.github", "workflows", "rhino-test.yml", package = "rhino"),
-      file.path(".github", "workflows", "rhino-test.yml")
-    )
-    ```
+1. Added `sass: custom` configuration option for cleaner integration with `bslib`.
+
+# [rhino 1.8.0](https://github.com/Appsilon/rhino/releases/tag/v1.8.0)
+
+1. All linter functions migrated to `box.linters`. New rhino projects will be configured to use linters from `box.linters`.
+2. Updated GitHub Workflow template triggers.
+
+See _[How-to: Rhino 1.8 Migration Guide](https://appsilon.github.io/rhino/articles/how-to/migrate-1-8.html)_
 
 # [rhino 1.7.0](https://github.com/Appsilon/rhino/releases/tag/v1.7.0)
 
